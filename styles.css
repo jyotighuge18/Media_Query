@@ -1,0 +1,45 @@
+/* body{
+    background-color: aqua;
+} */
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+a:link{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+nav{
+     display: flex;
+     flex-direction: column;
+     width: 85px;
+}
+/* small mobile media */
+
+@media  screen and(max-width:700x) 
+{
+  body{
+    background-color: red;
+
+  }  
+  
+/* media device with landscape orientation */
+@media screen and(max-width:700px) and(orientation:landscape) 
+{
+  body{
+    background-color: blue;
+  }   
+}
+
+
+}
+@media screen and(min-width:767px) and (max-width:1024) and (orientation:landscape)
+{
+    body{
+        background-color: purple;
+    }
+    
+}
